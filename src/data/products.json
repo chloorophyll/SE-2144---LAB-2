@@ -1,0 +1,173 @@
+[
+  {
+    "id": "kb-001",
+    "name": "Vega75 Mechanical Keyboard",
+    "category": "Keyboards",
+    "price": 89.99,
+    "image": "https://picsum.photos/seed/vega75/600/600",
+    "inStock": true,
+    "description": "75% hot-swappable board with gasket mount and PBT keycaps."
+  },
+  {
+    "id": "kb-002",
+    "name": "Driftwood Low-Profile Keyboard",
+    "category": "Keyboards",
+    "price": 64.5,
+    "image": "https://picsum.photos/seed/driftwood/600/600",
+    "inStock": true,
+    "description": "Slim aluminum frame, tactile low-profile switches."
+  },
+  {
+    "id": "kb-003",
+    "name": "Numpad Companion",
+    "category": "Keyboards",
+    "price": 24.0,
+    "image": "https://picsum.photos/seed/numpad/600/600",
+    "inStock": false,
+    "description": "Wireless 21-key numpad with volume knob."
+  },
+  {
+    "id": "aud-001",
+    "name": "Halo ANC Headphones",
+    "category": "Audio",
+    "price": 129.0,
+    "image": "https://picsum.photos/seed/haloanc/600/600",
+    "inStock": true,
+    "description": "Active noise cancelling over-ear with 40hr battery."
+  },
+  {
+    "id": "aud-002",
+    "name": "Nomad Earbuds",
+    "category": "Audio",
+    "price": 49.99,
+    "image": "https://picsum.photos/seed/nomadbuds/600/600",
+    "inStock": true,
+    "description": "IPX5 rated true-wireless buds with USB-C case."
+  },
+  {
+    "id": "aud-003",
+    "name": "Desktop Boom Mic",
+    "category": "Audio",
+    "price": 74.0,
+    "image": "https://picsum.photos/seed/boommic/600/600",
+    "inStock": true,
+    "description": "Cardioid USB condenser mic on an articulating arm."
+  },
+  {
+    "id": "aud-004",
+    "name": "Clip-On Lavalier Mic",
+    "category": "Audio",
+    "price": 18.5,
+    "image": "https://picsum.photos/seed/lavalier/600/600",
+    "inStock": false,
+    "description": "Omnidirectional lav mic with 6m cable."
+  },
+  {
+    "id": "chg-001",
+    "name": "65W GaN Charger",
+    "category": "Charging",
+    "price": 32.0,
+    "image": "https://picsum.photos/seed/gan65/600/600",
+    "inStock": true,
+    "description": "Dual-port compact charger, laptop-capable."
+  },
+  {
+    "id": "chg-002",
+    "name": "10000mAh Power Brick",
+    "category": "Charging",
+    "price": 27.99,
+    "image": "https://picsum.photos/seed/powerbrick/600/600",
+    "inStock": true,
+    "description": "Slim power bank with pass-through charging."
+  },
+  {
+    "id": "chg-003",
+    "name": "3-in-1 Wireless Pad",
+    "category": "Charging",
+    "price": 39.99,
+    "image": "https://picsum.photos/seed/wirelesspad/600/600",
+    "inStock": true,
+    "description": "Charges phone, watch, and buds at once."
+  },
+  {
+    "id": "mnt-001",
+    "name": "Articulating Monitor Arm",
+    "category": "Mounts",
+    "price": 54.0,
+    "image": "https://picsum.photos/seed/monitorarm/600/600",
+    "inStock": true,
+    "description": "Gas-spring arm, tilt/swivel/rotate, clamp base."
+  },
+  {
+    "id": "mnt-002",
+    "name": "Laptop Riser Stand",
+    "category": "Mounts",
+    "price": 22.0,
+    "image": "https://picsum.photos/seed/laptopriser/600/600",
+    "inStock": true,
+    "description": "Foldable aluminum stand, six height settings."
+  },
+  {
+    "id": "mnt-003",
+    "name": "Phone Grip Mount",
+    "category": "Mounts",
+    "price": 12.5,
+    "image": "https://picsum.photos/seed/phonegrip/600/600",
+    "inStock": true,
+    "description": "Magnetic vent mount for the car."
+  },
+  {
+    "id": "stg-001",
+    "name": "1TB Pocket SSD",
+    "category": "Storage",
+    "price": 94.99,
+    "image": "https://picsum.photos/seed/pocketssd/600/600",
+    "inStock": true,
+    "description": "USB-C 3.2, up to 1050MB/s read."
+  },
+  {
+    "id": "stg-002",
+    "name": "128GB Dual Drive",
+    "category": "Storage",
+    "price": 21.0,
+    "image": "https://picsum.photos/seed/dualdrive/600/600",
+    "inStock": true,
+    "description": "USB-A and USB-C swivel flash drive."
+  },
+  {
+    "id": "stg-003",
+    "name": "microSD 256GB",
+    "category": "Storage",
+    "price": 28.5,
+    "image": "https://picsum.photos/seed/microsd/600/600",
+    "inStock": false,
+    "description": "A2-rated card for handhelds and cameras."
+  },
+  {
+    "id": "cbl-001",
+    "name": "Braided USB-C Cable 2m",
+    "category": "Cables",
+    "price": 11.99,
+    "image": "https://picsum.photos/seed/braidedusbc/600/600",
+    "inStock": true,
+    "description": "100W PD rated, nylon braided."
+  },
+  {
+    "id": "cbl-002",
+    "name": "HDMI 2.1 Cable 1.8m",
+    "category": "Cables",
+    "price": 14.0,
+    "image": "https://picsum.photos/seed/hdmi21/600/600",
+    "inStock": true,
+    "description": "8K60 / 4K120 certified cable."
+  },
+  {
+    "id": "cbl-003",
+    "name": "6-Port Travel Hub",
+    "category": "Cables",
+    "price": 42.0,
+    "image": "https://picsum.photos/seed/travelhub/600/600",
+    "inStock": true,
+    "description": "USB-C hub with HDMI, SD, and 100W passthrough."
+  }
+]
