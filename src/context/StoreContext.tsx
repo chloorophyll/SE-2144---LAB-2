@@ -1,8 +1,12 @@
-import { createContext, useContext, useReducer } from 'react';
-import type { State } from '../types'
+import { useMemo, useReducer } from 'react'
+import type { ReactNode } from 'react'
+import { initialState, StoreContext, storeReducer } from './store'
 
-import productsData from '../data/products.json';
+export function StoreProvider({ children }: { children: ReactNode }) {
+  const [state, dispatch] = useReducer(storeReducer, initialState)
+  const value = useMemo(() => ({ state, dispatch }), [state])
 
+<<<<<<< Updated upstream
 const initialState: State = {
   products: productsData,
   cart: [],
@@ -41,3 +45,7 @@ export function useStore() {
   }
   return context;
 }
+=======
+  return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>
+}
+>>>>>>> Stashed changes
