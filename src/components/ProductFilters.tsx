@@ -3,7 +3,7 @@ import type { SortOption } from '../types'
 
 const currencyFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
-  currency: 'Php',
+  currency: 'PHP',
   maximumFractionDigits: 0,
 })
 
@@ -70,7 +70,7 @@ export function ProductFilters() {
           value={filters.sortBy}
           onChange={(event) =>
             dispatch({
-              type: 'SET_SORT_BY',
+              type: 'SET_SORT',
               payload: event.target.value as SortOption,
             })
           }
