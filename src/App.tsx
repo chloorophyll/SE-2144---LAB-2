@@ -20,11 +20,15 @@ function GearHubApp() {
 
   return (
     <>
-      <main className="app-shell">
+      <main className="app-shell" >
         <header className="site-header">
           <div className="header-copy">
-            <p className="eyebrow">GearHub Mini E-Commerce</p>
-            <h1>Shop desk-ready tech accessories.</h1>
+            <p className="eyebrow">
+              GearHub Mini E-Commerce
+            </p>
+            <h1 className="title">
+              Shop desk-ready tech accessories.
+            </h1>
             <p>
               Browse keyboards, audio gear, chargers, mounts, storage, and
               cables with instant filtering.

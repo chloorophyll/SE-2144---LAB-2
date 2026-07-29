@@ -10,6 +10,7 @@
   gap: 24px;
   align-items: start;
   padding: 28px 0 24px;
+  font-size: large;
 }
 
 .header-copy {
@@ -477,7 +478,7 @@
 
 @media (max-width: 520px) {
   .site-header h1 {
-    font-size: 2.3rem;
+    font-size: 3.3rem;
   }
 
   .product-card-footer,
@@ -502,4 +503,8 @@
     grid-column: 2;
     justify-self: start;
   }
+}
+
+.title {
+  font-size: large;
 }
