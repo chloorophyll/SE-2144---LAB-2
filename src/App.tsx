@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import './App.css'
+import logoSrc from './assets/Mini E-Commerce Gadgets & Electronics Logo.png'
 import { ProductFilters } from './components/ProductFilters'
 import { ProductGrid } from './components/ProductGrid'
 import { CartDrawer } from './components/CartDrawer'
@@ -23,13 +24,16 @@ function GearHubApp() {
       <main className="app-shell" >
         <header className="site-header">
           <div className="header-copy">
+            <div className="logo-container" aria-label="GearHub logo">
+              <img src={logoSrc} alt="Mini E-Commerce Gadgets & Electronics Logo" className="logo-image" />
+            </div>
             <p className="eyebrow">
               GearHub Mini E-Commerce
             </p>
             <h1 className="title">
               Shop desk-ready tech accessories.
             </h1>
-            <p>
+            <p className='p1'>
               Browse keyboards, audio gear, chargers, mounts, storage, and
               cables with instant filtering.
             </p>
