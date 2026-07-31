@@ -31,11 +31,10 @@
   box-shadow: #4f46e5;
 }
 
-.logo-image {
+.site-logo {
   display: block;
-  height: 48px;
+  height: 98px;
   width: auto;
-   box-shadow: #4f46e5;
 }
 
 .header-copy {
@@ -218,6 +217,21 @@
   aspect-ratio: 1 / 0.78;
   background: #edf2f7;
   overflow: hidden;
+  position: relative;
+}
+
+.out-of-stock-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .product-image-wrap img {

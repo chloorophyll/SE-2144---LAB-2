@@ -16,7 +16,10 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <article className="product-card">
       <div className="product-image-wrap">
-        <img src={product.image} alt={product.name} loading="lazy" />
+         <img src={product.image} alt={product.name} loading="lazy" />
+         {!product.inStock && (
+           <div className="out-of-stock-overlay">Out of Stock</div>
+         )}
       </div>
 
       <div className="product-card-body">

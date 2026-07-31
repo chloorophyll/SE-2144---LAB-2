@@ -27,6 +27,24 @@
     "description": "Wireless 21-key numpad with volume knob."
   },
   {
+    "id": "ms-001",
+    "name": "Logi Ergo Wireless Mouse",
+    "category": "Mouse",
+    "price": 499.99,
+    "image": "https://media.rs-online.com/PIMG26346684.jpg",
+    "inStock": true,
+    "description": "Contoured ergonomic grip with silent clicks and a 2.4GHz wireless receiver."
+  },
+  {
+  "id": "ms-002",
+  "name": "Wireless Compact Mouse",
+  "category": "Mouse",
+  "price": 290.0,
+  "image":"https://cdn.cs.1worldsync.com/81/1f/811fc19c-1aeb-48da-b6bd-f17fb9613f07.jpg",
+  "inStock": true,
+  "description": "Slim, pocket-sized mouse built for travel with a folding scroll wheel."
+  },
+  {
     "id": "aud-001",
     "name": "Halo ANC Headphones",
     "category": "Audio",
