@@ -34,7 +34,7 @@ function GearHubApp() {
               Shop desk-ready tech accessories.
             </h1>
             <p className='p1'>
-              Browse keyboards, audio gear, chargers, mounts, storage, and
+              Browse keyboards, mouse, audio gear, chargers, mounts, storage, and
               cables with instant filtering.
             </p>
           </div>
