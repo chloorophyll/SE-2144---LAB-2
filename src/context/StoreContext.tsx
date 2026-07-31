@@ -1,16 +1,11 @@
-import { createContext, useContext, useReducer } from 'react';
-import type { State } from '../types'
+import { useMemo, useReducer } from 'react'
+import type { ReactNode } from 'react'
+import { initialState, StoreContext, storeReducer } from './store'
 
-import productsData from '../data/products.json';
+export function StoreProvider({ children }: { children: ReactNode }) {
+  const [state, dispatch] = useReducer(storeReducer, initialState)
+  const value = useMemo(() => ({ state, dispatch }), [state])
 
-const initialState: State = {
-  products: productsData,
-  cart: [],
-  filters: {
-    searchQuery: '',
-    category: 'All',
-    maxPrice: 150,
-    sortBy: 'default',
-  },
-  isCartOpen: false,
-};
+  return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>
+}
+
