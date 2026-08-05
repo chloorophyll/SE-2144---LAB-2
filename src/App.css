@@ -1,9 +1,12 @@
 
 
 .app-shell {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1500px, calc(100% - 32px));
+  min-height: 100vh;
   margin: 0 auto;
   padding: 32px 0 56px;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-header {
@@ -174,6 +177,7 @@
 .products-section {
   display: grid;
   gap: 18px;
+  flex: 1;
 }
 
 .section-heading {

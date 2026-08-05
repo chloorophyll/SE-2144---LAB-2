@@ -31,7 +31,7 @@ function GearHubApp() {
               GearHub Mini E-Commerce
             </p>
             <h1 className="title">
-              Shop desk-ready tech accessories.
+              Shop desk-ready tech accessories
             </h1>
             <p className='p1'>
               Browse keyboards, mice, audio gear, chargers, mounts, storage, and
